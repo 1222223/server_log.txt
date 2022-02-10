@@ -1,0 +1,1336 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 36%
+	Available Physical Memory: 9778m/15295m
+	Available Page File: 9727m/16255m
+	Available Virtual Memory: 134213490m/134217727m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 30m
+	Working Set Size: 30m
+	Quota Peak Page Pool Usage: 204k
+	Quota Page Pool Usage: 201k
+	Quota Peak Non Paged Pool Usage:13k
+	Quota Non Paged Pool Usage: 13k
+	Page File Usage: 5m
+	Peak Page File Usage: 5m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/1106638679/Cluster_3/Master/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 494138
+[00:00:00]: Current time: Thu Feb 10 17:28:12 2022
+
+[00:00:00]: Don't Starve Together: 494138 WIN32
+[00:00:00]: Build Date: 673
+[00:00:00]: Mode: 64-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -monitor_parent_process 7676 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogether -cluster Cluster_3 -fo -ownernetid 76561199066904407 -ownerdir 1106638679 -backup_log_count 25 -backup_log_period 0 -ugc_directory D:\\.temp\\steamapps\\workshop -shard Master -sigprefix DST_Master -region Sing -token *********************************************************************************** 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: Initializing Minidump handler
+[00:00:00]: ....Done
+[00:00:00]: ....Done
+[00:00:00]: Fixing DPI
+[00:00:00]: ...Done
+[00:00:00]: THREAD - started 'GAClient' (7180)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: [Steam] SteamGameServer_Init(10999, 27016)
+[00:00:01]: [Steam] SteamGameServer_Init success
+[00:00:01]: ProfileIndex:4.09
+[00:00:01]: [Connect] PendingConnection::Reset(true)
+[00:00:01]: THREAD - started 'Ping Job Thread' (8768)
+[00:00:01]: Platform: 1
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: Authorized application D:\.temp\steamapps\common\Don't Starve Together\bin64\dontstarve_dedicated_server_nullrenderer_x64.exe is enabled in the firewall.
+[00:00:01]: WindowsFirewall - Application already authorized
+[00:00:01]: Overriding region to Sing
+[00:00:01]: THREAD - started 'StreamInput' (14896)
+[00:00:01]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/1106638679/client_save/blocklist.txt (Failure)
+[00:00:01]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/1106638679/client_save/adminlist.txt (Failure)
+[00:00:01]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/1106638679/client_save/whitelist.txt (Failure)
+[00:00:01]: Offline user ID: OU_76561199066904407
+[00:00:01]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 10 家庭中文版
+    version                   10.0.19044
+    platformSpecific          SP 0.0
+    architecture              64 位
+  CPU                       
+    clockSpeed                2100
+    name                      AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx  
+    manufacturer              AuthenticAMD
+    numCores                  4
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+  RAM                       
+    megsOfRam                 16384
+  GPU                       
+    megsOfRam                 1024
+    videoModeDescription      1920 x 1080 x 4294967296 种颜色
+    name                      AMD Radeon(TM) Vega 8 Graphics
+    driverVersion             26.20.11030.22001
+    driverDate                20200422000000.000000-000
+    refreshRate               60
+
+[00:00:01]: cGame::InitializeOnMainThread
+[00:00:01]: Renderer initialize: Okay
+[00:00:01]: AnimManager initialize: Okay
+[00:00:01]: Buffers initialize: Okay
+[00:00:01]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:01]: GameSpecific initialize: Okay
+[00:00:01]: cGame::StartPlaying
+[00:00:01]: AppVersion::GetArchitecture() x64
+[00:00:01]: LOADING LUA
+[00:00:01]: DoLuaFile scripts/main.lua
+[00:00:01]: DoLuaFile loading buffer scripts/main.lua
+[00:00:01]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:03]:   taskgrouplist:	default	联机版	
+[00:00:03]:   taskgrouplist:	classic	经典	
+[00:00:03]:   taskgrouplist:	cave_default	地下	
+[00:00:03]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:03]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:03]: running main.lua
+	
+[00:00:03]: Could not load modindex	
+[00:00:03]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:03]: SUCCESS: Loaded modoverrides.lua	
+[00:00:03]: modoverrides.lua enabling workshop-2189004162	
+[00:00:03]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2189004162	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-2189004162_CLIENT	
+[00:00:03]: Loading mod: workshop-2189004162 (Insight) Version:3.3.9	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-2189004162	
+[00:00:03]: Overriding mod workshop-2189004162's option refresh_delay with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option soil_nutrients with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option battlesong_range with value both	
+[00:00:03]: Overriding mod workshop-2189004162's option display_cawnival with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option food_effects with value true	
+[00:00:03]: Overriding mod workshop-2189004162's option fuel_verbosity with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option soil_moisture with value 2	
+[00:00:03]: Overriding mod workshop-2189004162's option 指示器 with value 0	
+[00:00:03]: Overriding mod workshop-2189004162's option time_style with value gametime	
+[00:00:03]: Overriding mod workshop-2189004162's option orchestrina_indicator with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option fuel_highlighting_color with value RED	
+[00:00:03]: Overriding mod workshop-2189004162's option highlighting_color with value GREEN	
+[00:00:03]: Overriding mod workshop-2189004162's option display_yotb_appraisal with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option display_shared_stats with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option nightmareclock_display with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option display_pickable with value true	
+[00:00:03]: Overriding mod workshop-2189004162's option display_pollination with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option display_mob_attack_damage with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option appeasement_value with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option boss_indicator with value true	
+[00:00:03]: Overriding mod workshop-2189004162's option display_worldmigrator with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option display_attack_range with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option DEBUG_ENABLED with value false	
+[00:00:03]: Overriding mod workshop-2189004162's option display_sanity with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option display_weighable with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option domestication_information with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option crash_reporter with value false	
+[00:00:03]: Overriding mod workshop-2189004162's option 信息控制 with value 0	
+[00:00:03]: Overriding mod workshop-2189004162's option info_style with value text	
+[00:00:03]: Overriding mod workshop-2189004162's option display_crafting_lookup_button with value true	
+[00:00:03]: Overriding mod workshop-2189004162's option display_shelter_info with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option unique_info with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option repair_values with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option display_spawner_information with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option DEBUG_SHOW_NOTIMPLEMENTED with value false	
+[00:00:03]: Overriding mod workshop-2189004162's option blink_range with value true	
+[00:00:03]: Overriding mod workshop-2189004162's option display_finiteuses with value true	
+[00:00:03]: Overriding mod workshop-2189004162's option DEBUG_SHOW_DISABLED with value false	
+[00:00:03]: Overriding mod workshop-2189004162's option food_order with value interface	
+[00:00:03]: Overriding mod workshop-2189004162's option display_food with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option language with value automatic	
+[00:00:03]: Overriding mod workshop-2189004162's option 食物相关 with value 0	
+[00:00:03]: Overriding mod workshop-2189004162's option herd_information with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option 调试 with value 0	
+[00:00:03]: Overriding mod workshop-2189004162's option 杂项 with value 0	
+[00:00:03]: Overriding mod workshop-2189004162's option display_world_events with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option growth_verbosity with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option 格式 with value 0	
+[00:00:03]: Overriding mod workshop-2189004162's option wortox_soul_range with value true	
+[00:00:03]: Overriding mod workshop-2189004162's option display_perishable with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option weapon_damage with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option klaus_sack_markers with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option highlighting with value true	
+[00:00:03]: Overriding mod workshop-2189004162's option display_health with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option display_unwrappable with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option lightningrod_range with value 1	
+[00:00:03]: Overriding mod workshop-2189004162's option display_plant_stressors with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option display_insight_menu_button with value true	
+[00:00:03]: Overriding mod workshop-2189004162's option sinkhole_marks with value 2	
+[00:00:03]: Overriding mod workshop-2189004162's option DEBUG_SHOW_PREFAB with value false	
+[00:00:03]: Overriding mod workshop-2189004162's option naughtiness_verbosity with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option food_style with value long	
+[00:00:03]: Overriding mod workshop-2189004162's option display_harvestable with value true	
+[00:00:03]: Overriding mod workshop-2189004162's option pipspook_indicator with value true	
+[00:00:03]: Overriding mod workshop-2189004162's option notable_indicator with value true	
+[00:00:03]: Overriding mod workshop-2189004162's option stewer_chef with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option text_coloring with value true	
+[00:00:03]: Overriding mod workshop-2189004162's option hover_range_indicator with value true	
+[00:00:03]: Overriding mod workshop-2189004162's option food_units with value true	
+[00:00:03]: Overriding mod workshop-2189004162's option attack_range_type with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option itemtile_display with value percentages	
+[00:00:03]: Overriding mod workshop-2189004162's option fuel_highlighting with value false	
+[00:00:03]: Overriding mod workshop-2189004162's option display_fishing_information with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option food_memory with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option hunt_indicator with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option bottle_indicator with value true	
+[00:00:03]: Overriding mod workshop-2189004162's option display_sanityaura with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option item_worth with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option display_hunger with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option info_preload with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option follower_info with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option display_weather with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option extended_info_indicator with value true	
+[00:00:03]: Overriding mod workshop-2189004162's option display_yotb_winners with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option display_upgradeable with value undefined	
+[00:00:03]: Overriding mod workshop-2189004162's option alt_only_information with value false	
+[00:00:03]: Overriding mod workshop-2189004162's option display_timers with value undefined	
+[00:00:03]: Mod: workshop-2189004162 (Insight)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-2189004162 (Insight)	Loading modmain.lua	
+[00:00:03]: [workshop-2189004162 (Insight)]:	Insight main initialized!	
+[00:00:03]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:04]: LOADING LUA SUCCESS
+[00:00:04]: Registering Server mod namespace "workshop-2189004162"
+[00:00:04]: Registering Client mod namespace "workshop-2189004162"
+[00:00:04]: Registering Shard mod namespace "workshop-2189004162"
+[00:00:04]: PlayerDeaths could not load morgue	
+[00:00:04]: PlayerHistory could not load player_history	
+[00:00:04]: ServerPreferences could not load server_preferences	
+[00:00:04]: bloom_enabled	true	
+[00:00:04]: OnFilesLoaded()	
+[00:00:04]: OnUpdatePurchaseStateComplete	
+[00:00:04]: Klump load on boot started.	
+[00:00:04]: Klump files loaded: 	0	
+[00:00:06]: Mod: workshop-2189004162 (Insight)	Registering prefabs	
+[00:00:06]: Mod: workshop-2189004162 (Insight)	  Registering prefab file: prefabs/insight_range_indicator	
+[00:00:06]: Mod: workshop-2189004162 (Insight)	    insight_range_indicator	
+[00:00:06]: Mod: workshop-2189004162 (Insight)	    insight_combat_range_indicator	
+[00:00:06]: Mod: workshop-2189004162 (Insight)	  Registering prefab file: prefabs/insight_map_marker	
+[00:00:07]: Mod: workshop-2189004162 (Insight)	    insight_map_marker	
+[00:00:07]: Mod: workshop-2189004162 (Insight)	  Registering prefab file: prefabs/insight_ghost_klaus_sack	
+[00:00:07]: Mod: workshop-2189004162 (Insight)	    insight_ghost_klaus_sack	
+[00:00:07]: Mod: workshop-2189004162 (Insight)	  Registering default mod prefab	
+[00:00:07]: 	Load FE	
+[00:00:08]: 	Load FE: done	
+[00:00:08]: THREAD - started 'FilesExistAsyncThread' (15440)
+[00:00:08]: FilesExistAsyncThread started (19267 files)...
+[00:00:08]: Check for write access: TRUE
+[00:00:08]: Check for read access: TRUE
+[00:00:08]: Available disk space for save files: 10006 MB
+[00:00:08]: ModIndex: Load sequence finished successfully.	
+[00:00:08]: Reset() returning
+[00:00:08]: [IPC] Signal 'DST_Master_Kill' opened  #0000000000000750
+[00:00:08]: [IPC] Registering handler for signal #0000000000000750
+[00:00:08]: [IPC] Handle #0000000000000750 added to the Eventhandles
+[00:00:08]: [IPC] Signal 'DST_Master_Starting' opened  #0000000000000754
+[00:00:08]: [IPC] Sending signal... #0000000000000754
+[00:00:09]: [200] Account Communication Success (6)
+[00:00:09]: Received (KU_Wwg8fvHh) from TokenPurpose
+[00:00:09]: Starting Dedicated Server Game	
+[00:00:09]: Network tick rate: U=15(2), D=0
+[00:00:09]: About to start a server with the following settings:
+[00:00:09]:   Dedicated: true
+[00:00:09]:   Online: true
+[00:00:09]:   Passworded: false
+[00:00:09]:   ServerPort: 10999
+[00:00:09]:   SteamAuthPort: 8766
+[00:00:09]:   SteamMasterServerPort: 27016
+[00:00:09]:   ClanID: false
+[00:00:09]:   ClanOnly: false
+[00:00:09]:   ClanAdmin: false
+[00:00:09]:   LanOnly: false
+[00:00:09]:   FriendsOnly: true
+[00:00:09]:   EnableAutosaver: true
+[00:00:09]:   EncodeUserPath: true
+[00:00:09]:   PVP: false
+[00:00:09]:   MaxPlayers: 6
+[00:00:09]:   GameMode: survival
+[00:00:09]:   OverridenDNS: 
+[00:00:09]:   PauseWhenEmpty: true
+[00:00:09]:   IdleTimeout: 1800s
+[00:00:09]:   VoteEnabled: false
+[00:00:09]:   InternetBroadcasting: true
+[00:00:09]:   Intent: cooperative
+[00:00:09]: [Warning] Could not confirm port 10999 is open in the firewall. 
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-2189004162	
+[00:00:09]: Online Server Started on port: 10999
+[00:00:09]: SUCCESS: Loaded modoverrides.lua	
+[00:00:09]: Found a level data override file with these contents:	
+[00:00:09]: 	K: 	custom_settings_desc	 V: 		
+[00:00:09]: 	K: 	custom_settings_id	 V: 	CUSTOM_2	
+[00:00:09]: 	K: 	custom_settings_name	 V: 	2	
+[00:00:09]: 	K: 	custom_worldgen_desc	 V: 		
+[00:00:09]: 	K: 	custom_worldgen_id	 V: 	CUSTOM_2	
+[00:00:09]: 	K: 	custom_worldgen_name	 V: 	2	
+[00:00:09]: 	K: 	desc	 V: 	标准《饥荒》体验。	
+[00:00:09]: 	K: 	hideminimap	 V: 	false	
+[00:00:09]: 	K: 	id	 V: 	SURVIVAL_TOGETHER	
+[00:00:09]: 	K: 	location	 V: 	forest	
+[00:00:09]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:09]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:09]: 	K: 	name	 V: 	标准森林	
+[00:00:09]: 	K: 	numrandom_set_pieces	 V: 	4	
+[00:00:09]: 	K: 	override_level_string	 V: 	false	
+[00:00:09]: 	K: 	overrides	 V: 	table: 0000000014297470	
+[00:00:09]: 		K: 	alternatehunt	 V: 	never	
+[00:00:09]: 		K: 	angrybees	 V: 	never	
+[00:00:09]: 		K: 	antliontribute	 V: 	never	
+[00:00:09]: 		K: 	autumn	 V: 	default	
+[00:00:09]: 		K: 	bats_setting	 V: 	never	
+[00:00:09]: 		K: 	bearger	 V: 	never	
+[00:00:09]: 		K: 	beefalo	 V: 	never	
+[00:00:09]: 		K: 	beefaloheat	 V: 	never	
+[00:00:09]: 		K: 	beequeen	 V: 	never	
+[00:00:09]: 		K: 	bees	 V: 	never	
+[00:00:09]: 		K: 	bees_setting	 V: 	never	
+[00:00:09]: 		K: 	berrybush	 V: 	never	
+[00:00:09]: 		K: 	birds	 V: 	never	
+[00:00:09]: 		K: 	boons	 V: 	never	
+[00:00:09]: 		K: 	branching	 V: 	default	
+[00:00:09]: 		K: 	brightmarecreatures	 V: 	never	
+[00:00:09]: 		K: 	bunnymen_setting	 V: 	never	
+[00:00:09]: 		K: 	butterfly	 V: 	never	
+[00:00:09]: 		K: 	buzzard	 V: 	never	
+[00:00:09]: 		K: 	cactus	 V: 	never	
+[00:00:09]: 		K: 	carrot	 V: 	never	
+[00:00:09]: 		K: 	carrots_regrowth	 V: 	never	
+[00:00:09]: 		K: 	catcoon	 V: 	never	
+[00:00:09]: 		K: 	catcoons	 V: 	never	
+[00:00:09]: 		K: 	chess	 V: 	never	
+[00:00:09]: 		K: 	cookiecutters	 V: 	never	
+[00:00:09]: 		K: 	crabking	 V: 	never	
+[00:00:09]: 		K: 	day	 V: 	onlyday	
+[00:00:09]: 		K: 	deciduousmonster	 V: 	never	
+[00:00:09]: 		K: 	deciduoustree_regrowth	 V: 	never	
+[00:00:09]: 		K: 	deerclops	 V: 	never	
+[00:00:09]: 		K: 	dragonfly	 V: 	never	
+[00:00:09]: 		K: 	dropeverythingondespawn	 V: 	default	
+[00:00:09]: 		K: 	evergreen_regrowth	 V: 	never	
+[00:00:09]: 		K: 	extrastartingitems	 V: 	default	
+[00:00:09]: 		K: 	eyeofterror	 V: 	default	
+[00:00:09]: 		K: 	fishschools	 V: 	never	
+[00:00:09]: 		K: 	flint	 V: 	never	
+[00:00:09]: 		K: 	flowers	 V: 	never	
+[00:00:09]: 		K: 	flowers_regrowth	 V: 	never	
+[00:00:09]: 		K: 	frograin	 V: 	never	
+[00:00:09]: 		K: 	frogs	 V: 	never	
+[00:00:09]: 		K: 	fruitfly	 V: 	never	
+[00:00:09]: 		K: 	gnarwail	 V: 	never	
+[00:00:09]: 		K: 	goosemoose	 V: 	never	
+[00:00:09]: 		K: 	grass	 V: 	never	
+[00:00:09]: 		K: 	grassgekkos	 V: 	never	
+[00:00:09]: 		K: 	has_ocean	 V: 	true	
+[00:00:09]: 		K: 	hound_mounds	 V: 	never	
+[00:00:09]: 		K: 	houndmound	 V: 	never	
+[00:00:09]: 		K: 	hounds	 V: 	never	
+[00:00:09]: 		K: 	hunt	 V: 	never	
+[00:00:09]: 		K: 	keep_disconnected_tiles	 V: 	true	
+[00:00:09]: 		K: 	klaus	 V: 	never	
+[00:00:09]: 		K: 	krampus	 V: 	never	
+[00:00:09]: 		K: 	layout_mode	 V: 	LinkNodesByKeys	
+[00:00:09]: 		K: 	liefs	 V: 	never	
+[00:00:09]: 		K: 	lightning	 V: 	never	
+[00:00:09]: 		K: 	lightninggoat	 V: 	never	
+[00:00:09]: 		K: 	loop	 V: 	default	
+[00:00:09]: 		K: 	lureplants	 V: 	never	
+[00:00:09]: 		K: 	malbatross	 V: 	never	
+[00:00:09]: 		K: 	marshbush	 V: 	never	
+[00:00:09]: 		K: 	merm	 V: 	never	
+[00:00:09]: 		K: 	merms	 V: 	never	
+[00:00:09]: 		K: 	meteorshowers	 V: 	never	
+[00:00:09]: 		K: 	meteorspawner	 V: 	never	
+[00:00:09]: 		K: 	moles	 V: 	never	
+[00:00:09]: 		K: 	moles_setting	 V: 	never	
+[00:00:09]: 		K: 	moon_berrybush	 V: 	never	
+[00:00:09]: 		K: 	moon_bullkelp	 V: 	never	
+[00:00:09]: 		K: 	moon_carrot	 V: 	never	
+[00:00:09]: 		K: 	moon_fissure	 V: 	never	
+[00:00:09]: 		K: 	moon_fruitdragon	 V: 	never	
+[00:00:09]: 		K: 	moon_hotspring	 V: 	never	
+[00:00:09]: 		K: 	moon_rock	 V: 	never	
+[00:00:09]: 		K: 	moon_sapling	 V: 	never	
+[00:00:09]: 		K: 	moon_spider	 V: 	never	
+[00:00:09]: 		K: 	moon_spiders	 V: 	never	
+[00:00:09]: 		K: 	moon_starfish	 V: 	never	
+[00:00:09]: 		K: 	moon_tree	 V: 	never	
+[00:00:09]: 		K: 	moon_tree_regrowth	 V: 	never	
+[00:00:09]: 		K: 	mosquitos	 V: 	never	
+[00:00:09]: 		K: 	mushroom	 V: 	never	
+[00:00:09]: 		K: 	mutated_hounds	 V: 	never	
+[00:00:09]: 		K: 	no_joining_islands	 V: 	true	
+[00:00:09]: 		K: 	no_wormholes_to_disconnected_tiles	 V: 	true	
+[00:00:09]: 		K: 	ocean_bullkelp	 V: 	never	
+[00:00:09]: 		K: 	ocean_seastack	 V: 	ocean_never	
+[00:00:09]: 		K: 	ocean_shoal	 V: 	never	
+[00:00:09]: 		K: 	ocean_waterplant	 V: 	ocean_never	
+[00:00:09]: 		K: 	ocean_wobsterden	 V: 	never	
+[00:00:09]: 		K: 	penguins	 V: 	never	
+[00:00:09]: 		K: 	penguins_moon	 V: 	never	
+[00:00:09]: 		K: 	perd	 V: 	never	
+[00:00:09]: 		K: 	petrification	 V: 	none	
+[00:00:09]: 		K: 	pigs	 V: 	never	
+[00:00:09]: 		K: 	pigs_setting	 V: 	never	
+[00:00:09]: 		K: 	ponds	 V: 	never	
+[00:00:09]: 		K: 	prefabswaps_start	 V: 	default	
+[00:00:09]: 		K: 	rabbits	 V: 	never	
+[00:00:09]: 		K: 	rabbits_setting	 V: 	never	
+[00:00:09]: 		K: 	reeds	 V: 	never	
+[00:00:09]: 		K: 	regrowth	 V: 	never	
+[00:00:09]: 		K: 	roads	 V: 	default	
+[00:00:09]: 		K: 	rock	 V: 	never	
+[00:00:09]: 		K: 	rock_ice	 V: 	never	
+[00:00:09]: 		K: 	saltstack_regrowth	 V: 	never	
+[00:00:09]: 		K: 	sapling	 V: 	never	
+[00:00:09]: 		K: 	season_start	 V: 	default	
+[00:00:09]: 		K: 	seasonalstartingitems	 V: 	default	
+[00:00:09]: 		K: 	shadowcreatures	 V: 	never	
+[00:00:09]: 		K: 	sharks	 V: 	never	
+[00:00:09]: 		K: 	spawnprotection	 V: 	default	
+[00:00:09]: 		K: 	specialevent	 V: 	default	
+[00:00:09]: 		K: 	spider_warriors	 V: 	never	
+[00:00:09]: 		K: 	spiderqueen	 V: 	never	
+[00:00:09]: 		K: 	spiders	 V: 	never	
+[00:00:09]: 		K: 	spiders_setting	 V: 	never	
+[00:00:09]: 		K: 	spring	 V: 	default	
+[00:00:09]: 		K: 	squid	 V: 	never	
+[00:00:09]: 		K: 	start_location	 V: 	default	
+[00:00:09]: 		K: 	summer	 V: 	default	
+[00:00:09]: 		K: 	tallbirds	 V: 	never	
+[00:00:09]: 		K: 	task_set	 V: 	default	
+[00:00:09]: 		K: 	tentacles	 V: 	never	
+[00:00:09]: 		K: 	terrariumchest	 V: 	never	
+[00:00:09]: 		K: 	touchstone	 V: 	never	
+[00:00:09]: 		K: 	trees	 V: 	never	
+[00:00:09]: 		K: 	tumbleweed	 V: 	never	
+[00:00:09]: 		K: 	twiggytrees_regrowth	 V: 	never	
+[00:00:09]: 		K: 	walrus	 V: 	never	
+[00:00:09]: 		K: 	walrus_setting	 V: 	never	
+[00:00:09]: 		K: 	wasps	 V: 	never	
+[00:00:09]: 		K: 	weather	 V: 	never	
+[00:00:09]: 		K: 	wildfires	 V: 	never	
+[00:00:09]: 		K: 	winter	 V: 	default	
+[00:00:09]: 		K: 	wobsters	 V: 	never	
+[00:00:09]: 		K: 	world_size	 V: 	default	
+[00:00:09]: 		K: 	wormhole_prefab	 V: 	wormhole	
+[00:00:09]: 	K: 	random_set_pieces	 V: 	table: 0000000014296D90	
+[00:00:09]: 		K: 	1	 V: 	Sculptures_2	
+[00:00:09]: 		K: 	2	 V: 	Sculptures_3	
+[00:00:09]: 		K: 	3	 V: 	Sculptures_4	
+[00:00:09]: 		K: 	4	 V: 	Sculptures_5	
+[00:00:09]: 		K: 	5	 V: 	Chessy_1	
+[00:00:09]: 		K: 	6	 V: 	Chessy_2	
+[00:00:09]: 		K: 	7	 V: 	Chessy_3	
+[00:00:09]: 		K: 	8	 V: 	Chessy_4	
+[00:00:09]: 		K: 	9	 V: 	Chessy_5	
+[00:00:09]: 		K: 	10	 V: 	Chessy_6	
+[00:00:09]: 		K: 	11	 V: 	Maxwell1	
+[00:00:09]: 		K: 	12	 V: 	Maxwell2	
+[00:00:09]: 		K: 	13	 V: 	Maxwell3	
+[00:00:09]: 		K: 	14	 V: 	Maxwell4	
+[00:00:09]: 		K: 	15	 V: 	Maxwell6	
+[00:00:09]: 		K: 	16	 V: 	Maxwell7	
+[00:00:09]: 		K: 	17	 V: 	Warzone_1	
+[00:00:09]: 		K: 	18	 V: 	Warzone_2	
+[00:00:09]: 		K: 	19	 V: 	Warzone_3	
+[00:00:09]: 	K: 	required_prefabs	 V: 	table: 0000000014297290	
+[00:00:09]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:09]: 	K: 	required_setpieces	 V: 	table: 0000000014297600	
+[00:00:09]: 		K: 	1	 V: 	Sculptures_1	
+[00:00:09]: 		K: 	2	 V: 	Maxwell5	
+[00:00:09]: 	K: 	settings_desc	 V: 	标准《饥荒》体验。	
+[00:00:09]: 	K: 	settings_id	 V: 	SURVIVAL_TOGETHER	
+[00:00:09]: 	K: 	settings_name	 V: 	标准森林	
+[00:00:09]: 	K: 	substitutes	 V: 	table: 0000000014297510	
+[00:00:09]: 	K: 	version	 V: 	4	
+[00:00:09]: 	K: 	worldgen_desc	 V: 	标准《饥荒》体验。	
+[00:00:09]: 	K: 	worldgen_id	 V: 	SURVIVAL_TOGETHER	
+[00:00:09]: 	K: 	worldgen_name	 V: 	标准森林	
+[00:00:09]: Loaded and applied level data override from ../leveldataoverride.lua	
+[00:00:09]: Overwriting savedata with level data file.	
+[00:00:09]: Not applying world gen overrides.	
+[00:00:09]: Collecting garbage...
+[00:00:09]: lua_gc took 0.10 seconds
+[00:00:09]: ~ShardLuaProxy()
+[00:00:09]: ~cEventLeaderboardProxy()
+[00:00:09]: ~ItemServerLuaProxy()
+[00:00:09]: ~InventoryLuaProxy()
+[00:00:09]: ~NetworkLuaProxy()
+[00:00:09]: ~SimLuaProxy()
+[00:00:09]: FilesExistAsyncThread aborted.
+[00:00:09]: ... FilesExistAsyncThread complete
+[00:00:09]: lua_close took 0.11 seconds
+[00:00:09]: ReleaseAll
+[00:00:09]: ReleaseAll Finished
+[00:00:09]: cGame::StartPlaying
+[00:00:09]: AppVersion::GetArchitecture() x64
+[00:00:09]: LOADING LUA
+[00:00:09]: DoLuaFile scripts/main.lua
+[00:00:09]: DoLuaFile loading buffer scripts/main.lua
+[00:00:09]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:11]:   taskgrouplist:	default	联机版	
+[00:00:11]:   taskgrouplist:	classic	经典	
+[00:00:11]:   taskgrouplist:	cave_default	地下	
+[00:00:11]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:11]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:11]: running main.lua
+	
+[00:00:11]: loaded modindex	
+[00:00:11]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:11]: SUCCESS: Loaded modoverrides.lua	
+[00:00:11]: modoverrides.lua enabling workshop-2189004162	
+[00:00:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2189004162	
+[00:00:11]: Could not load mod_config_data/modconfiguration_workshop-2189004162	
+[00:00:11]: Loading mod: workshop-2189004162 (Insight) Version:3.3.9	
+[00:00:11]: applying configuration_options from modoverrides.lua to mod workshop-2189004162	
+[00:00:11]: Overriding mod workshop-2189004162's option refresh_delay with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option soil_nutrients with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option battlesong_range with value both	
+[00:00:11]: Overriding mod workshop-2189004162's option display_cawnival with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option food_effects with value true	
+[00:00:11]: Overriding mod workshop-2189004162's option fuel_verbosity with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option soil_moisture with value 2	
+[00:00:11]: Overriding mod workshop-2189004162's option 指示器 with value 0	
+[00:00:11]: Overriding mod workshop-2189004162's option time_style with value gametime	
+[00:00:11]: Overriding mod workshop-2189004162's option orchestrina_indicator with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option fuel_highlighting_color with value RED	
+[00:00:11]: Overriding mod workshop-2189004162's option highlighting_color with value GREEN	
+[00:00:11]: Overriding mod workshop-2189004162's option display_yotb_appraisal with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option display_shared_stats with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option nightmareclock_display with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option display_pickable with value true	
+[00:00:11]: Overriding mod workshop-2189004162's option display_pollination with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option display_mob_attack_damage with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option appeasement_value with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option boss_indicator with value true	
+[00:00:11]: Overriding mod workshop-2189004162's option display_worldmigrator with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option display_attack_range with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option DEBUG_ENABLED with value false	
+[00:00:11]: Overriding mod workshop-2189004162's option display_sanity with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option display_weighable with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option domestication_information with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option crash_reporter with value false	
+[00:00:11]: Overriding mod workshop-2189004162's option 信息控制 with value 0	
+[00:00:11]: Overriding mod workshop-2189004162's option info_style with value text	
+[00:00:11]: Overriding mod workshop-2189004162's option display_crafting_lookup_button with value true	
+[00:00:11]: Overriding mod workshop-2189004162's option display_shelter_info with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option unique_info with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option repair_values with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option display_spawner_information with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option DEBUG_SHOW_NOTIMPLEMENTED with value false	
+[00:00:11]: Overriding mod workshop-2189004162's option blink_range with value true	
+[00:00:11]: Overriding mod workshop-2189004162's option display_finiteuses with value true	
+[00:00:11]: Overriding mod workshop-2189004162's option DEBUG_SHOW_DISABLED with value false	
+[00:00:11]: Overriding mod workshop-2189004162's option food_order with value interface	
+[00:00:11]: Overriding mod workshop-2189004162's option display_food with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option language with value automatic	
+[00:00:11]: Overriding mod workshop-2189004162's option 食物相关 with value 0	
+[00:00:11]: Overriding mod workshop-2189004162's option herd_information with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option 调试 with value 0	
+[00:00:11]: Overriding mod workshop-2189004162's option 杂项 with value 0	
+[00:00:11]: Overriding mod workshop-2189004162's option display_world_events with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option growth_verbosity with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option 格式 with value 0	
+[00:00:11]: Overriding mod workshop-2189004162's option wortox_soul_range with value true	
+[00:00:11]: Overriding mod workshop-2189004162's option display_perishable with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option weapon_damage with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option klaus_sack_markers with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option highlighting with value true	
+[00:00:11]: Overriding mod workshop-2189004162's option display_health with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option display_unwrappable with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option lightningrod_range with value 1	
+[00:00:11]: Overriding mod workshop-2189004162's option display_plant_stressors with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option display_insight_menu_button with value true	
+[00:00:11]: Overriding mod workshop-2189004162's option sinkhole_marks with value 2	
+[00:00:11]: Overriding mod workshop-2189004162's option DEBUG_SHOW_PREFAB with value false	
+[00:00:11]: Overriding mod workshop-2189004162's option naughtiness_verbosity with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option food_style with value long	
+[00:00:11]: Overriding mod workshop-2189004162's option display_harvestable with value true	
+[00:00:11]: Overriding mod workshop-2189004162's option pipspook_indicator with value true	
+[00:00:11]: Overriding mod workshop-2189004162's option notable_indicator with value true	
+[00:00:11]: Overriding mod workshop-2189004162's option stewer_chef with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option text_coloring with value true	
+[00:00:11]: Overriding mod workshop-2189004162's option hover_range_indicator with value true	
+[00:00:11]: Overriding mod workshop-2189004162's option food_units with value true	
+[00:00:11]: Overriding mod workshop-2189004162's option attack_range_type with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option itemtile_display with value percentages	
+[00:00:11]: Overriding mod workshop-2189004162's option fuel_highlighting with value false	
+[00:00:11]: Overriding mod workshop-2189004162's option display_fishing_information with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option food_memory with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option hunt_indicator with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option bottle_indicator with value true	
+[00:00:11]: Overriding mod workshop-2189004162's option display_sanityaura with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option item_worth with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option display_hunger with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option info_preload with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option follower_info with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option display_weather with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option extended_info_indicator with value true	
+[00:00:11]: Overriding mod workshop-2189004162's option display_yotb_winners with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option display_upgradeable with value undefined	
+[00:00:11]: Overriding mod workshop-2189004162's option alt_only_information with value false	
+[00:00:11]: Overriding mod workshop-2189004162's option display_timers with value undefined	
+[00:00:11]: Mod: workshop-2189004162 (Insight)	Loading modworldgenmain.lua	
+[00:00:11]: Mod: workshop-2189004162 (Insight)	Loading modmain.lua	
+[00:00:11]: [workshop-2189004162 (Insight)]:	Insight main initialized!	
+[00:00:12]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:12]: LOADING LUA SUCCESS
+[00:00:12]: Registering Server mod namespace "workshop-2189004162"
+[00:00:12]: Registering Client mod namespace "workshop-2189004162"
+[00:00:12]: Registering Shard mod namespace "workshop-2189004162"
+[00:00:12]: PlayerDeaths could not load morgue	
+[00:00:12]: PlayerHistory could not load player_history	
+[00:00:12]: ServerPreferences could not load server_preferences	
+[00:00:12]: bloom_enabled	true	
+[00:00:12]: OnFilesLoaded()	
+[00:00:12]: OnUpdatePurchaseStateComplete	
+[00:00:12]: SUCCESS: Loaded modoverrides.lua	
+[00:00:12]: Found a level data override file with these contents:	
+[00:00:12]: 	K: 	custom_settings_desc	 V: 		
+[00:00:12]: 	K: 	custom_settings_id	 V: 	CUSTOM_2	
+[00:00:12]: 	K: 	custom_settings_name	 V: 	2	
+[00:00:12]: 	K: 	custom_worldgen_desc	 V: 		
+[00:00:12]: 	K: 	custom_worldgen_id	 V: 	CUSTOM_2	
+[00:00:12]: 	K: 	custom_worldgen_name	 V: 	2	
+[00:00:12]: 	K: 	desc	 V: 	标准《饥荒》体验。	
+[00:00:12]: 	K: 	hideminimap	 V: 	false	
+[00:00:12]: 	K: 	id	 V: 	SURVIVAL_TOGETHER	
+[00:00:12]: 	K: 	location	 V: 	forest	
+[00:00:12]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:12]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:12]: 	K: 	name	 V: 	标准森林	
+[00:00:12]: 	K: 	numrandom_set_pieces	 V: 	4	
+[00:00:12]: 	K: 	override_level_string	 V: 	false	
+[00:00:12]: 	K: 	overrides	 V: 	table: 00000000158C9A60	
+[00:00:12]: 		K: 	alternatehunt	 V: 	never	
+[00:00:12]: 		K: 	angrybees	 V: 	never	
+[00:00:12]: 		K: 	antliontribute	 V: 	never	
+[00:00:12]: 		K: 	autumn	 V: 	default	
+[00:00:12]: 		K: 	bats_setting	 V: 	never	
+[00:00:12]: 		K: 	bearger	 V: 	never	
+[00:00:12]: 		K: 	beefalo	 V: 	never	
+[00:00:12]: 		K: 	beefaloheat	 V: 	never	
+[00:00:12]: 		K: 	beequeen	 V: 	never	
+[00:00:12]: 		K: 	bees	 V: 	never	
+[00:00:12]: 		K: 	bees_setting	 V: 	never	
+[00:00:12]: 		K: 	berrybush	 V: 	never	
+[00:00:12]: 		K: 	birds	 V: 	never	
+[00:00:12]: 		K: 	boons	 V: 	never	
+[00:00:12]: 		K: 	branching	 V: 	default	
+[00:00:12]: 		K: 	brightmarecreatures	 V: 	never	
+[00:00:12]: 		K: 	bunnymen_setting	 V: 	never	
+[00:00:12]: 		K: 	butterfly	 V: 	never	
+[00:00:12]: 		K: 	buzzard	 V: 	never	
+[00:00:12]: 		K: 	cactus	 V: 	never	
+[00:00:12]: 		K: 	carrot	 V: 	never	
+[00:00:12]: 		K: 	carrots_regrowth	 V: 	never	
+[00:00:12]: 		K: 	catcoon	 V: 	never	
+[00:00:12]: 		K: 	catcoons	 V: 	never	
+[00:00:12]: 		K: 	chess	 V: 	never	
+[00:00:12]: 		K: 	cookiecutters	 V: 	never	
+[00:00:12]: 		K: 	crabking	 V: 	never	
+[00:00:12]: 		K: 	day	 V: 	onlyday	
+[00:00:12]: 		K: 	deciduousmonster	 V: 	never	
+[00:00:12]: 		K: 	deciduoustree_regrowth	 V: 	never	
+[00:00:12]: 		K: 	deerclops	 V: 	never	
+[00:00:12]: 		K: 	dragonfly	 V: 	never	
+[00:00:12]: 		K: 	dropeverythingondespawn	 V: 	default	
+[00:00:12]: 		K: 	evergreen_regrowth	 V: 	never	
+[00:00:12]: 		K: 	extrastartingitems	 V: 	default	
+[00:00:12]: 		K: 	eyeofterror	 V: 	default	
+[00:00:12]: 		K: 	fishschools	 V: 	never	
+[00:00:12]: 		K: 	flint	 V: 	never	
+[00:00:12]: 		K: 	flowers	 V: 	never	
+[00:00:12]: 		K: 	flowers_regrowth	 V: 	never	
+[00:00:12]: 		K: 	frograin	 V: 	never	
+[00:00:12]: 		K: 	frogs	 V: 	never	
+[00:00:12]: 		K: 	fruitfly	 V: 	never	
+[00:00:12]: 		K: 	gnarwail	 V: 	never	
+[00:00:12]: 		K: 	goosemoose	 V: 	never	
+[00:00:12]: 		K: 	grass	 V: 	never	
+[00:00:12]: 		K: 	grassgekkos	 V: 	never	
+[00:00:12]: 		K: 	has_ocean	 V: 	true	
+[00:00:12]: 		K: 	hound_mounds	 V: 	never	
+[00:00:12]: 		K: 	houndmound	 V: 	never	
+[00:00:12]: 		K: 	hounds	 V: 	never	
+[00:00:12]: 		K: 	hunt	 V: 	never	
+[00:00:12]: 		K: 	keep_disconnected_tiles	 V: 	true	
+[00:00:12]: 		K: 	klaus	 V: 	never	
+[00:00:12]: 		K: 	krampus	 V: 	never	
+[00:00:12]: 		K: 	layout_mode	 V: 	LinkNodesByKeys	
+[00:00:12]: 		K: 	liefs	 V: 	never	
+[00:00:12]: 		K: 	lightning	 V: 	never	
+[00:00:12]: 		K: 	lightninggoat	 V: 	never	
+[00:00:12]: 		K: 	loop	 V: 	default	
+[00:00:12]: 		K: 	lureplants	 V: 	never	
+[00:00:12]: 		K: 	malbatross	 V: 	never	
+[00:00:12]: 		K: 	marshbush	 V: 	never	
+[00:00:12]: 		K: 	merm	 V: 	never	
+[00:00:12]: 		K: 	merms	 V: 	never	
+[00:00:12]: 		K: 	meteorshowers	 V: 	never	
+[00:00:12]: 		K: 	meteorspawner	 V: 	never	
+[00:00:12]: 		K: 	moles	 V: 	never	
+[00:00:12]: 		K: 	moles_setting	 V: 	never	
+[00:00:12]: 		K: 	moon_berrybush	 V: 	never	
+[00:00:12]: 		K: 	moon_bullkelp	 V: 	never	
+[00:00:12]: 		K: 	moon_carrot	 V: 	never	
+[00:00:12]: 		K: 	moon_fissure	 V: 	never	
+[00:00:12]: 		K: 	moon_fruitdragon	 V: 	never	
+[00:00:12]: 		K: 	moon_hotspring	 V: 	never	
+[00:00:12]: 		K: 	moon_rock	 V: 	never	
+[00:00:12]: 		K: 	moon_sapling	 V: 	never	
+[00:00:12]: 		K: 	moon_spider	 V: 	never	
+[00:00:12]: 		K: 	moon_spiders	 V: 	never	
+[00:00:12]: 		K: 	moon_starfish	 V: 	never	
+[00:00:12]: 		K: 	moon_tree	 V: 	never	
+[00:00:12]: 		K: 	moon_tree_regrowth	 V: 	never	
+[00:00:12]: 		K: 	mosquitos	 V: 	never	
+[00:00:12]: 		K: 	mushroom	 V: 	never	
+[00:00:12]: 		K: 	mutated_hounds	 V: 	never	
+[00:00:12]: 		K: 	no_joining_islands	 V: 	true	
+[00:00:12]: 		K: 	no_wormholes_to_disconnected_tiles	 V: 	true	
+[00:00:12]: 		K: 	ocean_bullkelp	 V: 	never	
+[00:00:12]: 		K: 	ocean_seastack	 V: 	ocean_never	
+[00:00:12]: 		K: 	ocean_shoal	 V: 	never	
+[00:00:12]: 		K: 	ocean_waterplant	 V: 	ocean_never	
+[00:00:12]: 		K: 	ocean_wobsterden	 V: 	never	
+[00:00:12]: 		K: 	penguins	 V: 	never	
+[00:00:12]: 		K: 	penguins_moon	 V: 	never	
+[00:00:12]: 		K: 	perd	 V: 	never	
+[00:00:12]: 		K: 	petrification	 V: 	none	
+[00:00:12]: 		K: 	pigs	 V: 	never	
+[00:00:12]: 		K: 	pigs_setting	 V: 	never	
+[00:00:12]: 		K: 	ponds	 V: 	never	
+[00:00:12]: 		K: 	prefabswaps_start	 V: 	default	
+[00:00:12]: 		K: 	rabbits	 V: 	never	
+[00:00:12]: 		K: 	rabbits_setting	 V: 	never	
+[00:00:12]: 		K: 	reeds	 V: 	never	
+[00:00:12]: 		K: 	regrowth	 V: 	never	
+[00:00:12]: 		K: 	roads	 V: 	default	
+[00:00:12]: 		K: 	rock	 V: 	never	
+[00:00:12]: 		K: 	rock_ice	 V: 	never	
+[00:00:12]: 		K: 	saltstack_regrowth	 V: 	never	
+[00:00:12]: 		K: 	sapling	 V: 	never	
+[00:00:12]: 		K: 	season_start	 V: 	default	
+[00:00:12]: 		K: 	seasonalstartingitems	 V: 	default	
+[00:00:12]: 		K: 	shadowcreatures	 V: 	never	
+[00:00:12]: 		K: 	sharks	 V: 	never	
+[00:00:12]: 		K: 	spawnprotection	 V: 	default	
+[00:00:12]: 		K: 	specialevent	 V: 	default	
+[00:00:12]: 		K: 	spider_warriors	 V: 	never	
+[00:00:12]: 		K: 	spiderqueen	 V: 	never	
+[00:00:12]: 		K: 	spiders	 V: 	never	
+[00:00:12]: 		K: 	spiders_setting	 V: 	never	
+[00:00:12]: 		K: 	spring	 V: 	default	
+[00:00:12]: 		K: 	squid	 V: 	never	
+[00:00:12]: 		K: 	start_location	 V: 	default	
+[00:00:12]: 		K: 	summer	 V: 	default	
+[00:00:12]: 		K: 	tallbirds	 V: 	never	
+[00:00:12]: 		K: 	task_set	 V: 	default	
+[00:00:12]: 		K: 	tentacles	 V: 	never	
+[00:00:12]: 		K: 	terrariumchest	 V: 	never	
+[00:00:12]: 		K: 	touchstone	 V: 	never	
+[00:00:12]: 		K: 	trees	 V: 	never	
+[00:00:12]: 		K: 	tumbleweed	 V: 	never	
+[00:00:12]: 		K: 	twiggytrees_regrowth	 V: 	never	
+[00:00:12]: 		K: 	walrus	 V: 	never	
+[00:00:12]: 		K: 	walrus_setting	 V: 	never	
+[00:00:12]: 		K: 	wasps	 V: 	never	
+[00:00:12]: 		K: 	weather	 V: 	never	
+[00:00:12]: 		K: 	wildfires	 V: 	never	
+[00:00:12]: 		K: 	winter	 V: 	default	
+[00:00:12]: 		K: 	wobsters	 V: 	never	
+[00:00:12]: 		K: 	world_size	 V: 	default	
+[00:00:12]: 		K: 	wormhole_prefab	 V: 	wormhole	
+[00:00:12]: 	K: 	random_set_pieces	 V: 	table: 00000000158C9AB0	
+[00:00:12]: 		K: 	1	 V: 	Sculptures_2	
+[00:00:12]: 		K: 	2	 V: 	Sculptures_3	
+[00:00:12]: 		K: 	3	 V: 	Sculptures_4	
+[00:00:12]: 		K: 	4	 V: 	Sculptures_5	
+[00:00:12]: 		K: 	5	 V: 	Chessy_1	
+[00:00:12]: 		K: 	6	 V: 	Chessy_2	
+[00:00:12]: 		K: 	7	 V: 	Chessy_3	
+[00:00:12]: 		K: 	8	 V: 	Chessy_4	
+[00:00:12]: 		K: 	9	 V: 	Chessy_5	
+[00:00:12]: 		K: 	10	 V: 	Chessy_6	
+[00:00:12]: 		K: 	11	 V: 	Maxwell1	
+[00:00:12]: 		K: 	12	 V: 	Maxwell2	
+[00:00:12]: 		K: 	13	 V: 	Maxwell3	
+[00:00:12]: 		K: 	14	 V: 	Maxwell4	
+[00:00:12]: 		K: 	15	 V: 	Maxwell6	
+[00:00:12]: 		K: 	16	 V: 	Maxwell7	
+[00:00:12]: 		K: 	17	 V: 	Warzone_1	
+[00:00:12]: 		K: 	18	 V: 	Warzone_2	
+[00:00:12]: 		K: 	19	 V: 	Warzone_3	
+[00:00:12]: 	K: 	required_prefabs	 V: 	table: 00000000158CA140	
+[00:00:12]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:12]: 	K: 	required_setpieces	 V: 	table: 00000000158CA230	
+[00:00:12]: 		K: 	1	 V: 	Sculptures_1	
+[00:00:12]: 		K: 	2	 V: 	Maxwell5	
+[00:00:12]: 	K: 	settings_desc	 V: 	标准《饥荒》体验。	
+[00:00:12]: 	K: 	settings_id	 V: 	SURVIVAL_TOGETHER	
+[00:00:12]: 	K: 	settings_name	 V: 	标准森林	
+[00:00:12]: 	K: 	substitutes	 V: 	table: 00000000158CA190	
+[00:00:12]: 	K: 	version	 V: 	4	
+[00:00:12]: 	K: 	worldgen_desc	 V: 	标准《饥荒》体验。	
+[00:00:12]: 	K: 	worldgen_id	 V: 	SURVIVAL_TOGETHER	
+[00:00:12]: 	K: 	worldgen_name	 V: 	标准森林	
+[00:00:12]: Loaded and applied level data override from ../leveldataoverride.lua	
+[00:00:12]: Overwriting savedata with level data file.	
+[00:00:12]: Not applying world gen overrides.	
+[00:00:12]: [IPC] Signal 'DST_Master_WorldGen' opened  #00000000000007F8
+[00:00:12]: [IPC] Sending signal... #00000000000007F8
+[00:00:12]: WorldSim::SimThread::SimThread()
+[00:00:12]: ABOUT TO INSTALL STACKTRACE
+[00:00:12]: DoLuaFile scripts/stacktrace.lua
+[00:00:12]: DoLuaFile loading buffer scripts/stacktrace.lua
+[00:00:12]: INSTALLED STACKTRACE
+[00:00:12]: WorldSim::SimThread::SimThread() complete
+[00:00:12]: THREAD - started 'WorldSim' (13660)
+[00:00:12]: WorldSim::SimThread::Main()
+[00:00:12]: DoLuaFile scripts/worldgen_main.lua
+[00:00:12]: DoLuaFile loading buffer scripts/worldgen_main.lua
+[00:00:12]: Check for write access: TRUE
+[00:00:12]: Check for read access: TRUE
+[00:00:12]: Available disk space for save files: 10006 MB
+[00:00:12]: ModIndex: Load sequence finished successfully.	
+[00:00:12]: Reset() returning
+[00:00:12]: DLC enabled : 	false	
+[00:00:12]:   taskgrouplist:	default	Together	
+[00:00:12]:   taskgrouplist:	classic	Classic	
+[00:00:12]:   taskgrouplist:	cave_default	Underground	
+[00:00:12]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:12]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:12]: ModIndex:GetModsToLoad inserting modname, 	workshop-2189004162	
+[00:00:12]: Loading mod: workshop-2189004162 (Insight) Version:3.3.9	
+[00:00:12]: Mod: workshop-2189004162 (Insight)	Loading modworldgenmain.lua	
+[00:00:12]: running worldgen_main.lua
+	
+[00:00:12]: SEED = 	1644485304	
+[00:00:12]: Generating world with these parameters:	
+[00:00:12]: level_type	SURVIVAL	
+[00:00:12]: level_data:	
+[00:00:12]: 	K: 	custom_settings_desc	 V: 		
+[00:00:12]: 	K: 	custom_settings_id	 V: 	CUSTOM_2	
+[00:00:12]: 	K: 	custom_settings_name	 V: 	2	
+[00:00:12]: 	K: 	custom_worldgen_desc	 V: 		
+[00:00:12]: 	K: 	custom_worldgen_id	 V: 	CUSTOM_2	
+[00:00:12]: 	K: 	custom_worldgen_name	 V: 	2	
+[00:00:12]: 	K: 	desc	 V: 	标准《饥荒》体验。	
+[00:00:12]: 	K: 	hideminimap	 V: 	false	
+[00:00:12]: 	K: 	id	 V: 	SURVIVAL_TOGETHER	
+[00:00:12]: 	K: 	location	 V: 	forest	
+[00:00:12]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:12]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:12]: 	K: 	name	 V: 	标准森林	
+[00:00:12]: 	K: 	numrandom_set_pieces	 V: 	4	
+[00:00:12]: 	K: 	override_level_string	 V: 	false	
+[00:00:12]: 	K: 	overrides	 V: 	table: 000000000FE8EB80	
+[00:00:12]: 		K: 	alternatehunt	 V: 	never	
+[00:00:12]: 		K: 	angrybees	 V: 	never	
+[00:00:12]: 		K: 	antliontribute	 V: 	never	
+[00:00:12]: 		K: 	autumn	 V: 	default	
+[00:00:12]: 		K: 	bats_setting	 V: 	never	
+[00:00:12]: 		K: 	bearger	 V: 	never	
+[00:00:12]: 		K: 	beefalo	 V: 	never	
+[00:00:12]: 		K: 	beefaloheat	 V: 	never	
+[00:00:12]: 		K: 	beequeen	 V: 	never	
+[00:00:12]: 		K: 	bees	 V: 	never	
+[00:00:12]: 		K: 	bees_setting	 V: 	never	
+[00:00:12]: 		K: 	berrybush	 V: 	never	
+[00:00:12]: 		K: 	birds	 V: 	never	
+[00:00:12]: 		K: 	boons	 V: 	never	
+[00:00:12]: 		K: 	branching	 V: 	default	
+[00:00:12]: 		K: 	brightmarecreatures	 V: 	never	
+[00:00:12]: 		K: 	bunnymen_setting	 V: 	never	
+[00:00:12]: 		K: 	butterfly	 V: 	never	
+[00:00:12]: 		K: 	buzzard	 V: 	never	
+[00:00:12]: 		K: 	cactus	 V: 	never	
+[00:00:12]: 		K: 	carrot	 V: 	never	
+[00:00:12]: 		K: 	carrots_regrowth	 V: 	never	
+[00:00:12]: 		K: 	catcoon	 V: 	never	
+[00:00:12]: 		K: 	catcoons	 V: 	never	
+[00:00:12]: 		K: 	chess	 V: 	never	
+[00:00:12]: 		K: 	cookiecutters	 V: 	never	
+[00:00:12]: 		K: 	crabking	 V: 	never	
+[00:00:12]: 		K: 	day	 V: 	onlyday	
+[00:00:12]: 		K: 	deciduousmonster	 V: 	never	
+[00:00:12]: 		K: 	deciduoustree_regrowth	 V: 	never	
+[00:00:12]: 		K: 	deerclops	 V: 	never	
+[00:00:12]: 		K: 	dragonfly	 V: 	never	
+[00:00:12]: 		K: 	dropeverythingondespawn	 V: 	default	
+[00:00:12]: 		K: 	evergreen_regrowth	 V: 	never	
+[00:00:12]: 		K: 	extrastartingitems	 V: 	default	
+[00:00:12]: 		K: 	eyeofterror	 V: 	default	
+[00:00:12]: 		K: 	fishschools	 V: 	never	
+[00:00:12]: 		K: 	flint	 V: 	never	
+[00:00:12]: 		K: 	flowers	 V: 	never	
+[00:00:12]: 		K: 	flowers_regrowth	 V: 	never	
+[00:00:12]: 		K: 	frograin	 V: 	never	
+[00:00:12]: 		K: 	frogs	 V: 	never	
+[00:00:12]: 		K: 	fruitfly	 V: 	never	
+[00:00:12]: 		K: 	gnarwail	 V: 	never	
+[00:00:12]: 		K: 	goosemoose	 V: 	never	
+[00:00:12]: 		K: 	grass	 V: 	never	
+[00:00:12]: 		K: 	grassgekkos	 V: 	never	
+[00:00:12]: 		K: 	has_ocean	 V: 	true	
+[00:00:12]: 		K: 	hound_mounds	 V: 	never	
+[00:00:12]: 		K: 	houndmound	 V: 	never	
+[00:00:12]: 		K: 	hounds	 V: 	never	
+[00:00:12]: 		K: 	hunt	 V: 	never	
+[00:00:12]: 		K: 	keep_disconnected_tiles	 V: 	true	
+[00:00:12]: 		K: 	klaus	 V: 	never	
+[00:00:12]: 		K: 	krampus	 V: 	never	
+[00:00:12]: 		K: 	layout_mode	 V: 	LinkNodesByKeys	
+[00:00:12]: 		K: 	liefs	 V: 	never	
+[00:00:12]: 		K: 	lightning	 V: 	never	
+[00:00:12]: 		K: 	lightninggoat	 V: 	never	
+[00:00:12]: 		K: 	loop	 V: 	default	
+[00:00:12]: 		K: 	lureplants	 V: 	never	
+[00:00:12]: 		K: 	malbatross	 V: 	never	
+[00:00:12]: 		K: 	marshbush	 V: 	never	
+[00:00:12]: 		K: 	merm	 V: 	never	
+[00:00:12]: 		K: 	merms	 V: 	never	
+[00:00:12]: 		K: 	meteorshowers	 V: 	never	
+[00:00:12]: 		K: 	meteorspawner	 V: 	never	
+[00:00:12]: 		K: 	moles	 V: 	never	
+[00:00:12]: 		K: 	moles_setting	 V: 	never	
+[00:00:12]: 		K: 	moon_berrybush	 V: 	never	
+[00:00:12]: 		K: 	moon_bullkelp	 V: 	never	
+[00:00:12]: 		K: 	moon_carrot	 V: 	never	
+[00:00:12]: 		K: 	moon_fissure	 V: 	never	
+[00:00:12]: 		K: 	moon_fruitdragon	 V: 	never	
+[00:00:12]: 		K: 	moon_hotspring	 V: 	never	
+[00:00:12]: 		K: 	moon_rock	 V: 	never	
+[00:00:12]: 		K: 	moon_sapling	 V: 	never	
+[00:00:12]: 		K: 	moon_spider	 V: 	never	
+[00:00:12]: 		K: 	moon_spiders	 V: 	never	
+[00:00:12]: 		K: 	moon_starfish	 V: 	never	
+[00:00:12]: 		K: 	moon_tree	 V: 	never	
+[00:00:12]: 		K: 	moon_tree_regrowth	 V: 	never	
+[00:00:12]: 		K: 	mosquitos	 V: 	never	
+[00:00:12]: 		K: 	mushroom	 V: 	never	
+[00:00:12]: 		K: 	mutated_hounds	 V: 	never	
+[00:00:12]: 		K: 	no_joining_islands	 V: 	true	
+[00:00:12]: 		K: 	no_wormholes_to_disconnected_tiles	 V: 	true	
+[00:00:12]: 		K: 	ocean_bullkelp	 V: 	never	
+[00:00:12]: 		K: 	ocean_seastack	 V: 	ocean_never	
+[00:00:12]: 		K: 	ocean_shoal	 V: 	never	
+[00:00:12]: 		K: 	ocean_waterplant	 V: 	ocean_never	
+[00:00:12]: 		K: 	ocean_wobsterden	 V: 	never	
+[00:00:12]: 		K: 	penguins	 V: 	never	
+[00:00:12]: 		K: 	penguins_moon	 V: 	never	
+[00:00:12]: 		K: 	perd	 V: 	never	
+[00:00:12]: 		K: 	petrification	 V: 	none	
+[00:00:12]: 		K: 	pigs	 V: 	never	
+[00:00:12]: 		K: 	pigs_setting	 V: 	never	
+[00:00:12]: 		K: 	ponds	 V: 	never	
+[00:00:12]: 		K: 	prefabswaps_start	 V: 	default	
+[00:00:12]: 		K: 	rabbits	 V: 	never	
+[00:00:12]: 		K: 	rabbits_setting	 V: 	never	
+[00:00:12]: 		K: 	reeds	 V: 	never	
+[00:00:12]: 		K: 	regrowth	 V: 	never	
+[00:00:12]: 		K: 	roads	 V: 	default	
+[00:00:12]: 		K: 	rock	 V: 	never	
+[00:00:12]: 		K: 	rock_ice	 V: 	never	
+[00:00:12]: 		K: 	saltstack_regrowth	 V: 	never	
+[00:00:12]: 		K: 	sapling	 V: 	never	
+[00:00:12]: 		K: 	season_start	 V: 	default	
+[00:00:12]: 		K: 	seasonalstartingitems	 V: 	default	
+[00:00:12]: 		K: 	shadowcreatures	 V: 	never	
+[00:00:12]: 		K: 	sharks	 V: 	never	
+[00:00:12]: 		K: 	spawnprotection	 V: 	default	
+[00:00:12]: 		K: 	specialevent	 V: 	default	
+[00:00:12]: 		K: 	spider_warriors	 V: 	never	
+[00:00:12]: 		K: 	spiderqueen	 V: 	never	
+[00:00:12]: 		K: 	spiders	 V: 	never	
+[00:00:12]: 		K: 	spiders_setting	 V: 	never	
+[00:00:12]: 		K: 	spring	 V: 	default	
+[00:00:12]: 		K: 	squid	 V: 	never	
+[00:00:12]: 		K: 	start_location	 V: 	default	
+[00:00:12]: 		K: 	summer	 V: 	default	
+[00:00:12]: 		K: 	tallbirds	 V: 	never	
+[00:00:12]: 		K: 	task_set	 V: 	default	
+[00:00:12]: 		K: 	tentacles	 V: 	never	
+[00:00:12]: 		K: 	terrariumchest	 V: 	never	
+[00:00:12]: 		K: 	touchstone	 V: 	never	
+[00:00:12]: 		K: 	trees	 V: 	never	
+[00:00:12]: 		K: 	tumbleweed	 V: 	never	
+[00:00:12]: 		K: 	twiggytrees_regrowth	 V: 	never	
+[00:00:12]: 		K: 	walrus	 V: 	never	
+[00:00:12]: 		K: 	walrus_setting	 V: 	never	
+[00:00:12]: 		K: 	wasps	 V: 	never	
+[00:00:12]: 		K: 	weather	 V: 	never	
+[00:00:12]: 		K: 	wildfires	 V: 	never	
+[00:00:12]: 		K: 	winter	 V: 	default	
+[00:00:12]: 		K: 	wobsters	 V: 	never	
+[00:00:12]: 		K: 	world_size	 V: 	default	
+[00:00:12]: 		K: 	wormhole_prefab	 V: 	wormhole	
+[00:00:12]: 	K: 	random_set_pieces	 V: 	table: 000000000FE8DC30	
+[00:00:12]: 		K: 	1	 V: 	Sculptures_2	
+[00:00:12]: 		K: 	2	 V: 	Sculptures_3	
+[00:00:12]: 		K: 	3	 V: 	Sculptures_4	
+[00:00:12]: 		K: 	4	 V: 	Sculptures_5	
+[00:00:12]: 		K: 	5	 V: 	Chessy_1	
+[00:00:12]: 		K: 	6	 V: 	Chessy_2	
+[00:00:12]: 		K: 	7	 V: 	Chessy_3	
+[00:00:12]: 		K: 	8	 V: 	Chessy_4	
+[00:00:12]: 		K: 	9	 V: 	Chessy_5	
+[00:00:12]: 		K: 	10	 V: 	Chessy_6	
+[00:00:12]: 		K: 	11	 V: 	Maxwell1	
+[00:00:12]: 		K: 	12	 V: 	Maxwell2	
+[00:00:12]: 		K: 	13	 V: 	Maxwell3	
+[00:00:12]: 		K: 	14	 V: 	Maxwell4	
+[00:00:12]: 		K: 	15	 V: 	Maxwell6	
+[00:00:12]: 		K: 	16	 V: 	Maxwell7	
+[00:00:12]: 		K: 	17	 V: 	Warzone_1	
+[00:00:12]: 		K: 	18	 V: 	Warzone_2	
+[00:00:12]: 		K: 	19	 V: 	Warzone_3	
+[00:00:12]: 	K: 	required_prefabs	 V: 	table: 000000000FE8E130	
+[00:00:12]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:12]: 	K: 	required_setpieces	 V: 	table: 000000000FE8D8C0	
+[00:00:12]: 		K: 	1	 V: 	Sculptures_1	
+[00:00:12]: 		K: 	2	 V: 	Maxwell5	
+[00:00:12]: 	K: 	settings_desc	 V: 	标准《饥荒》体验。	
+[00:00:12]: 	K: 	settings_id	 V: 	SURVIVAL_TOGETHER	
+[00:00:12]: 	K: 	settings_name	 V: 	标准森林	
+[00:00:12]: 	K: 	substitutes	 V: 	table: 000000000FE8DB90	
+[00:00:12]: 	K: 	version	 V: 	4	
+[00:00:12]: 	K: 	worldgen_desc	 V: 	标准《饥荒》体验。	
+[00:00:12]: 	K: 	worldgen_id	 V: 	SURVIVAL_TOGETHER	
+[00:00:12]: 	K: 	worldgen_name	 V: 	标准森林	
+[00:00:12]: 
+#######
+#
+# Generating SURVIVAL Mode Level
+#
+#######
+	
+[00:00:12]: Prefab Swap Selection: grass gekko	
+[00:00:12]: Prefab Swap Selection: regular twigs	
+[00:00:12]: Prefab Swap Selection: regular berries	
+[00:00:12]: Sculptures_1 added to task Badlands	
+[00:00:12]: Maxwell5 added to task Forest hunters	
+[00:00:12]: Sculptures_2 added to task Mole Colony Deciduous	
+[00:00:12]: Maxwell4 added to task Great Plains	
+[00:00:12]: Maxwell4 added to task Befriend the pigs	
+[00:00:12]: Maxwell3 added to task Mole Colony Deciduous	
+[00:00:12]: New size:	425	default	
+[00:00:12]: Creating story...	
+[00:00:12]: [Story Gen] Generate nodes. Starting at: 'Make a pick'	
+[00:00:12]: [Story Gen] LinkNodesByKeys	
+[00:00:12]: Finding valid start task...	
+[00:00:12]:    ...picked 	Make a pick	
+[00:00:12]: Has start node	Clearing	
+[00:00:12]: Adding Background Nodes	
+[00:00:12]: [Story Gen] Adding Cove Nodes	
+[00:00:12]: [Ocean] Processing ocean fake room content.	
+[00:00:12]: [WorldSimActual::WorldGen_InitializeNodePoints]
+[00:00:12]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:00:12]: GenerateVoronoiMap [100]:
+[00:00:14]: ...Done.
+[00:00:14]: [Story Gen] Finding nodes on mainland to connect a region to.	
+[00:00:14]: [Story Gen] Generate nodes. Starting at: 'MoonIsland_IslandShards'	
+[00:00:14]: [Story Gen] RestrictNodesByKey	
+[00:00:14]: [Story Gen] Adding Cove Nodes	
+[00:00:14]: [WorldSimActual::WorldGen_AddNewPositions]
+[00:00:14]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:00:14]: GenerateVoronoiMap [50]:
+[00:00:15]: ...Done.
+[00:00:15]: ... story created	
+[00:00:15]: Baking map...	425	
+[00:00:15]: [WorldSimActual::WorldGen_Commit] worldgen success.
+[00:00:15]: [WorldSimActual::ConvertToTileMap]
+[00:00:15]: [ConvertToTileMap]
+[00:00:15]: [WorldSimActual::ConvertToTileMap] complete
+[00:00:15]: [WorldSimActual::SeparateIslands]
+[00:00:15]: [SeparateIslands]
+[00:00:15]: [WorldSimActual::SeparateIslands] complete
+[00:00:15]: Map Baked!	
+[00:00:15]: [WorldSimActual::ForceConnectivity]
+[00:00:15]: [GenerateLandmasses]
+[00:00:15]: [GenerateLandmasses] islands: 11
+[00:00:15]: [MergeConnectedLandmasses] false
+[00:00:15]: [WorldSimActual::ForceConnectivity] complete
+[00:00:15]: [WorldSimActual::DrawRoads]
+[00:00:15]: [DrawRoads]
+[00:00:15]: [WorldSimActual::DrawRoads] complete
+[00:00:15]: Encoding...	
+[00:00:16]: [WorldSimActual::CreateNodeIdTileMap]
+[00:00:16]: Encoding... DONE	
+[00:00:16]: Checking Tags	
+[00:00:16]: Populating voronoi...	
+[00:00:16]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:16]: [ReplaceSingleNonLandTiles] Replaced 3 tiles.
+[00:00:16]: Not checking for disconnected tiles.	
+[00:00:16]: Badlands:7:DragonflyArena Cant process points	
+[00:00:16]: [Ocean] Placing ocean set pieces.	
+[00:00:16]: [Ocean] Placed 11 of 11 ocean set pieces.	
+[00:00:16]: [Ocean] Convert impassible to water...	
+[00:00:16]: [Ocean]  Square fill...	
+[00:00:18]: [Ocean]  Ground fill...	
+[00:00:18]: [Ocean]  Noise...	
+[00:00:18]: [Ocean]  Blend...	
+[00:00:19]: [Ocean]  Adding shoreline...	
+[00:00:19]: [Ocean] Void Outline...	
+[00:00:19]: [Ocean] Populating the ocean with lots of fun things to do...	
+[00:00:19]: [Ocean] Placing ocean set pieces.	
+[00:00:19]: [Ocean] Placed 9 of 9 ocean set pieces.	
+[00:00:19]: [Ocean] Placing ocean set pieces.	
+[00:00:19]: [Ocean] Placed 1 of 1 ocean set pieces.	
+[00:00:19]: [Ocean] Placing ocean set pieces.	
+[00:00:19]: [Ocean] Placed 1 of 1 ocean set pieces.	
+[00:00:19]: Checking Required Prefab moon_altar_rock_idol has at least 1 instances (1 found).	
+[00:00:19]: Checking Required Prefab sculpture_bishop has at least 1 instances (2 found).	
+[00:00:19]: Checking Required Prefab pigking has at least 1 instances (1 found).	
+[00:00:19]: Checking Required Prefab sculpture_rook has at least 1 instances (1 found).	
+[00:00:19]: Checking Required Prefab hermithouse_construction1 has at least 1 instances (1 found).	
+[00:00:19]: Checking Required Prefab sculpture_knight has at least 1 instances (3 found).	
+[00:00:19]: Checking Required Prefab crabking_spawner has at least 1 instances (1 found).	
+[00:00:19]: Checking Required Prefab gravestone has at least 1 instances (30 found).	
+[00:00:19]: Checking Required Prefab moon_altar_rock_seed has at least 1 instances (1 found).	
+[00:00:19]: Checking Required Prefab moon_altar_rock_glass has at least 1 instances (1 found).	
+[00:00:19]: Checking Required Prefab statueglommer has at least 1 instances (1 found).	
+[00:00:19]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:19]: [ReplaceSingleNonLandTiles] Replaced 0 tiles.
+[00:00:19]: Done forest map gen!	
+[00:00:19]: Checking map...	
+[00:00:19]: Generation complete	
+[00:00:19]: WorldSim::SimThread::Main() complete
+[00:00:19]: Serializing world: session/12562D1BA5C8B656/0000000002
+[00:00:19]: Klump load on boot started.	
+[00:00:19]: Klump files loaded: 	0	
+[00:00:19]: 	Unload FE	
+[00:00:19]: 	Unload FE done	
+[00:00:22]: Mod: workshop-2189004162 (Insight)	Registering prefabs	
+[00:00:22]: Mod: workshop-2189004162 (Insight)	  Registering prefab file: prefabs/insight_range_indicator	
+[00:00:22]: Mod: workshop-2189004162 (Insight)	    insight_range_indicator	
+[00:00:22]: Mod: workshop-2189004162 (Insight)	    insight_combat_range_indicator	
+[00:00:22]: Mod: workshop-2189004162 (Insight)	  Registering prefab file: prefabs/insight_map_marker	
+[00:00:22]: Mod: workshop-2189004162 (Insight)	    insight_map_marker	
+[00:00:22]: Mod: workshop-2189004162 (Insight)	  Registering prefab file: prefabs/insight_ghost_klaus_sack	
+[00:00:22]: Mod: workshop-2189004162 (Insight)	    insight_ghost_klaus_sack	
+[00:00:22]: Mod: workshop-2189004162 (Insight)	  Registering default mod prefab	
+[00:00:22]: 	LOAD BE	
+[00:00:32]: 	LOAD BE: done	
+[00:00:32]: Begin Session: 12562D1BA5C8B656
+[00:00:32]: saving to server_temp/server_save	
+[00:00:32]: OVERRIDE: setting	sharks	to	never	
+[00:00:32]: OVERRIDE: setting	regrowth	to	never	
+[00:00:32]: OVERRIDE: setting	bearger	to	never	
+[00:00:32]: OVERRIDE: setting	mutated_hounds	to	never	
+[00:00:32]: OVERRIDE: setting	moon_tree_regrowth	to	never	
+[00:00:32]: OVERRIDE: setting	bees_setting	to	never	
+[00:00:32]: OVERRIDE: setting	cookiecutters	to	never	
+[00:00:32]: OVERRIDE: setting	deciduoustree_regrowth	to	never	
+[00:00:32]: OVERRIDE: setting	gnarwail	to	never	
+[00:00:32]: OVERRIDE: setting	deerclops	to	never	
+[00:00:32]: OVERRIDE: setting	flowers_regrowth	to	never	
+[00:00:32]: OVERRIDE: setting	wildfires	to	never	
+[00:00:32]: OVERRIDE: setting	fishschools	to	never	
+[00:00:32]: OVERRIDE: setting	spiders_setting	to	never	
+[00:00:32]: OVERRIDE: setting	shadowcreatures	to	never	
+[00:00:32]: OVERRIDE: setting	merms	to	never	
+[00:00:32]: OVERRIDE: setting	birds	to	never	
+[00:00:32]: OVERRIDE: setting	bats_setting	to	never	
+[00:00:32]: OVERRIDE: setting	hound_mounds	to	never	
+[00:00:32]: OVERRIDE: setting	alternatehunt	to	never	
+[00:00:32]: OVERRIDE: setting	penguins	to	never	
+[00:00:32]: OVERRIDE: setting	frogs	to	never	
+[00:00:32]: OVERRIDE: setting	spiderqueen	to	never	
+[00:00:32]: OVERRIDE: setting	goosemoose	to	never	
+[00:00:32]: OVERRIDE: setting	moles_setting	to	never	
+[00:00:32]: OVERRIDE: setting	perd	to	never	
+[00:00:32]: OVERRIDE: setting	crabking	to	never	
+[00:00:32]: OVERRIDE: setting	evergreen_regrowth	to	never	
+[00:00:32]: OVERRIDE: setting	krampus	to	never	
+[00:00:32]: OVERRIDE: setting	beequeen	to	never	
+[00:00:32]: OVERRIDE: setting	dragonfly	to	never	
+[00:00:32]: OVERRIDE: setting	catcoons	to	never	
+[00:00:32]: OVERRIDE: setting	brightmarecreatures	to	never	
+[00:00:32]: OVERRIDE: setting	spider_warriors	to	never	
+[00:00:32]: OVERRIDE: setting	grassgekkos	to	never	
+[00:00:32]: OVERRIDE: setting	antliontribute	to	never	
+[00:00:32]: OVERRIDE: setting	carrots_regrowth	to	never	
+[00:00:32]: OVERRIDE: setting	petrification	to	none	
+[00:00:32]: OVERRIDE: setting	pigs_setting	to	never	
+[00:00:32]: OVERRIDE: setting	meteorshowers	to	never	
+[00:00:32]: OVERRIDE: setting	frograin	to	never	
+[00:00:32]: OVERRIDE: setting	saltstack_regrowth	to	never	
+[00:00:32]: OVERRIDE: setting	hunt	to	never	
+[00:00:32]: OVERRIDE: setting	squid	to	never	
+[00:00:32]: OVERRIDE: setting	moon_spider	to	never	
+[00:00:32]: OVERRIDE: setting	deciduousmonster	to	never	
+[00:00:32]: OVERRIDE: setting	lureplants	to	never	
+[00:00:32]: OVERRIDE: setting	mosquitos	to	never	
+[00:00:32]: OVERRIDE: setting	bunnymen_setting	to	never	
+[00:00:32]: OVERRIDE: setting	wasps	to	never	
+[00:00:32]: OVERRIDE: setting	malbatross	to	never	
+[00:00:32]: OVERRIDE: setting	liefs	to	never	
+[00:00:32]: OVERRIDE: setting	butterfly	to	never	
+[00:00:32]: OVERRIDE: setting	wobsters	to	never	
+[00:00:32]: OVERRIDE: setting	rabbits_setting	to	never	
+[00:00:32]: OVERRIDE: setting	penguins_moon	to	never	
+[00:00:32]: OVERRIDE: setting	walrus_setting	to	never	
+[00:00:32]: OVERRIDE: setting	klaus	to	never	
+[00:00:32]: OVERRIDE: setting	beefaloheat	to	never	
+[00:00:32]: OVERRIDE: setting	fruitfly	to	never	
+[00:00:32]: OVERRIDE: setting	twiggytrees_regrowth	to	never	
+[00:00:32]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-2189004162/images/minimap/sinkholes/sinkholes.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-2189004162/images/minimap/Possible_Klaus_Sack.xml )
+[00:00:32]: [workshop-2189004162 (Insight)]:	Farming_Manager has been hooked	
+[00:00:32]: Loading 18 new character(s)	
+[00:00:33]: Total 18 character(s) loaded	
+[00:00:34]: Loading Nav Grid	
+[00:00:34]: World generated on build 494138 with save version: 5.1, using seed: 1644485304	
+[00:00:34]: OVERRIDE: setting	hounds	to	never	
+[00:00:34]: OVERRIDE: setting	lightning	to	never	
+[00:00:34]: OVERRIDE: setting	day	to	onlyday	
+[00:00:34]: OVERRIDE: setting	weather	to	never	
+[00:00:34]: [workshop-2189004162 (Insight)]:	Got crabking_spawner	
+[00:00:34]: [workshop-2189004162 (Insight)]:	Got beequeenhive	
+[00:00:34]: [workshop-2189004162 (Insight)]:	Got dragonfly_spawner	
+[00:00:34]: Reconstructing topology	
+[00:00:34]: 	...Sorting points	
+[00:00:34]: 	...Sorting edges	
+[00:00:34]: 	...Connecting nodes	
+[00:00:34]: 	...Validating connections	
+[00:00:35]: 	...Housekeeping	
+[00:00:35]: 	...Done!	
+[00:00:35]: [workshop-2189004162 (Insight)]:	[Insight DEBUG MODE]:	false	
+[00:00:35]: [workshop-2189004162 (Insight)]:	Kramped has been hooked	
+[00:00:35]: [workshop-2189004162 (Insight)]:	Hunter has been hooked	
+[00:00:35]: [Special Event] Setup from none to year_of_the_catcoon	
+[00:00:35]: [YOT Catcoon] Setting up for the event.	
+[00:00:35]: [YOT Catcoon] Adding new kitcoon '102520 - kitcoon_savanna'.	
+[00:00:35]: [YOT Catcoon] Adding new kitcoon '102521 - kitcoon_moon'.	
+[00:00:35]: [YOT Catcoon] Adding new kitcoon '102522 - kitcoon_rocky'.	
+[00:00:35]: [YOT Catcoon] Adding new kitcoon '102523 - kitcoon_desert'.	
+[00:00:35]: [YOT Catcoon] Adding new kitcoon '102524 - kitcoon_deciduous'.	
+[00:00:35]: [YOT Catcoon] Adding new kitcoon '102525 - kitcoon_grass'.	
+[00:00:35]: [YOT Catcoon] Adding new kitcoon '102526 - kitcoon_forest'.	
+[00:00:35]: [YOT Catcoon] Adding new kitcoon '102527 - kitcoon_marsh'.	
+[00:00:35]: [YOT Catcoon] 102520 - kitcoon_savanna(LIMBO) spawned new hiding spot '102528 - grass'	
+[00:00:35]: [YOT Catcoon] 102521 - kitcoon_moon(LIMBO) spawned new hiding spot '102530 - moonglass_rock'	
+[00:00:35]: [YOT Catcoon] 102522 - kitcoon_rocky(LIMBO) spawned new hiding spot '102532 - rock_moon'	
+[00:00:35]: [YOT Catcoon] 102523 - kitcoon_desert(LIMBO) found hiding spot '100285 - houndbone'	
+[00:00:35]: [YOT Catcoon] 102524 - kitcoon_deciduous(LIMBO) found hiding spot '100208 - deciduoustree'	
+[00:00:35]: [YOT Catcoon] 102525 - kitcoon_grass(LIMBO) spawned new hiding spot '102536 - flower'	
+[00:00:35]: [YOT Catcoon] 102526 - kitcoon_forest(LIMBO) spawned new hiding spot '102538 - evergreen'	
+[00:00:35]: [YOT Catcoon] 102527 - kitcoon_marsh(LIMBO) spawned new hiding spot '102540 - marsh_bush'	
+[00:00:35]: 1 uploads added to server. From server_temp
+[00:00:35]: About to start a shard with these settings:
+[00:00:35]:   ShardName: [SHDMASTER]
+[00:00:35]:   ShardID: 1
+[00:00:35]:   ShardRole: MASTER
+[00:00:35]:   MasterHost: (null)
+[00:00:35]:   MasterBind: 127.0.0.1
+[00:00:35]:   MasterPort: 10888
+[00:00:35]: [Shard] Starting master server
+[00:00:35]: [Warning] Could not confirm port 10888 is open in the firewall. 
+[00:00:35]: [Shard] Shard server started on port: 10888
+[00:00:35]: [IPC] Signal 'DST_Master_Ready' opened  #00000000000007A8
+[00:00:35]: [IPC] Sending signal... #00000000000007A8
+[00:00:35]: Telling Client our new session identifier: 12562D1BA5C8B656
+[00:00:35]: Registering master server in Sing lobby
+[00:00:35]: Validating portal[1] <-> <nil>[1] (inactive)	
+[00:00:35]: Validating portal[2] <-> <nil>[2] (inactive)	
+[00:00:35]: Validating portal[3] <-> <nil>[3] (inactive)	
+[00:00:35]: Validating portal[4] <-> <nil>[4] (inactive)	
+[00:00:35]: Validating portal[5] <-> <nil>[5] (inactive)	
+[00:00:35]: Validating portal[6] <-> <nil>[6] (inactive)	
+[00:00:35]: Validating portal[7] <-> <nil>[7] (inactive)	
+[00:00:35]: Validating portal[8] <-> <nil>[8] (inactive)	
+[00:00:35]: Validating portal[9] <-> <nil>[9] (inactive)	
+[00:00:35]: Validating portal[10] <-> <nil>[10] (inactive)	
+[00:00:35]: Sim paused
+[00:00:45]: Registering master server in Sing lobby
+[00:00:49]: [Shard] Secondary shar Caves(3050735986) connected: [LAN] 127.0.0.1
+[00:00:51]: [Shard] Secondary Caves(3050735986) ready!
+[00:00:51]: World 3050735986 is now connected	
+[00:00:51]: Validating portal[1] <-> 3050735986[1] (disabled)	
+[00:00:51]: Validating portal[2] <-> 3050735986[2] (disabled)	
+[00:00:51]: Validating portal[3] <-> 3050735986[3] (disabled)	
+[00:00:51]: Validating portal[4] <-> 3050735986[4] (disabled)	
+[00:00:51]: Validating portal[5] <-> 3050735986[5] (disabled)	
+[00:00:51]: Validating portal[6] <-> 3050735986[6] (disabled)	
+[00:00:51]: Validating portal[7] <-> 3050735986[7] (disabled)	
+[00:00:51]: Validating portal[8] <-> 3050735986[8] (disabled)	
+[00:00:51]: Validating portal[9] <-> 3050735986[9] (disabled)	
+[00:00:51]: Validating portal[10] <-> 3050735986[10] (disabled)	
+[00:00:51]: [workshop-2189004162 (Insight)]:	Master received shard initialization from:	3050735986	number	with world prefab:	cave	
+[00:00:51]: [workshop-2189004162 (Insight)]:	Setting SelectedCaveShard to	3050735986	
+[00:00:53]: New incoming connection 127.0.0.1|56757 <2919570256691620824>
+[00:00:53]: Client connected from [LAN] 127.0.0.1|56757 <2919570256691620824>
+[00:00:53]: ValidateGameSessionToken pgs-usc^KU_Wwg8fvHh^DontStarveTogether^VzPPulKXI16Rhzho5CVHPZh484i63e5wV6jk99eQWM8= for <2919570256691620824>
+[00:00:54]: Client authenticated: (KU_Wwg8fvHh) 九寸信仰
+[00:00:54]: [Steam] Authenticated host '76561199066904407'
+[00:00:55]: Registering master server in Sing lobby
+[00:00:56]: There is no active event to validate against.
+[00:00:56]: [Shard] Read save location file for (KU_Wwg8fvHh)
+[00:01:05]: Registering master server in Sing lobby
+[00:01:14]: Resuming user: session/12562D1BA5C8B656/A7K3LA4AF53B
+[00:01:18]: Spawn request: warly from 九寸信仰
+[00:01:18]: Skin request: (warly_carrat_d) (body_warly_carrat) () () ()
+[00:01:18]: [workshop-2189004162 (Insight)]:	listening for player validation	102915 - warly	
+[00:01:18]: [workshop-2189004162 (Insight)]:	Added Insight component for	102915 - warly	
+[00:01:18]: Spawning player at: [Fixed] (394.00, 0.00, 386.00)	
+[00:01:18]: Serializing user: session/12562D1BA5C8B656/A7K3LA4AF53B/0000000003
+[00:01:18]: Sim unpaused
+[00:01:18]: Registering master server in Sing lobby
+[00:01:18]: [string "scripts/components/kramped.lua"]:60: bad argument #1 to 'random' (interval is empty)
+LUA ERROR stack traceback:
+	scripts/stacktrace.lua:124 in () ? (Lua) <122-127>
+	=[C]:-1 in (field) random (C) <-1--1>
+	scripts/components/kramped.lua:60 in (upvalue) OnNaughtyAction (Lua) <58-85>
+	scripts/components/kramped.lua:96 in (upvalue) OnKilledOther (Lua) <87-100>
+	../mods/workshop-2189004162/modmain.lua:2191 in () ? (Lua) <2168-2219>
+	scripts/components/kramped.lua:125 in (local) fn (Lua) <115-129>
+	scripts/entityscript.lua:1120 in (method) PushEvent (Lua) <1107-1134>
+	scripts/prefabs/player_common.lua:697 in (field) fn (Lua) <687-711>
+	scripts/scheduler.lua:186 in (method) OnTick (Lua) <164-216>
+	scripts/scheduler.lua:409 in (global) RunScheduler (Lua) <407-415>
+	scripts/update.lua:234 in () ? (Lua) <218-292>
+[00:01:18]: [string "scripts/components/kramped.lua"]:60: bad argument #1 to 'random' (interval is empty)
+LUA ERROR stack traceback:
+	scripts/stacktrace.lua:124 in () ? (Lua) <122-127>
+	=[C]:-1 in (field) random (C) <-1--1>
+	scripts/components/kramped.lua:60 in (upvalue) OnNaughtyAction (Lua) <58-85>
+	scripts/components/kramped.lua:96 in (upvalue) OnKilledOther (Lua) <87-100>
+	../mods/workshop-2189004162/modmain.lua:2191 in () ? (Lua) <2168-2219>
+	scripts/components/kramped.lua:125 in (local) fn (Lua) <115-129>
+	scripts/entityscript.lua:1120 in (method) PushEvent (Lua) <1107-1134>
+	scripts/prefabs/player_common.lua:697 in (field) fn (Lua) <687-711>
+	scripts/scheduler.lua:186 in (method) OnTick (Lua) <164-216>
+	scripts/scheduler.lua:409 in (global) RunScheduler (Lua) <407-415>
+	scripts/update.lua:234 in () ? (Lua) <218-292>	
+[00:01:18]: [workshop-2189004162 (Insight)]:	A crash has occured.	
+[00:01:18]: [workshop-2189004162 (Insight)]:	Title:	警告！	
+[00:01:18]: [workshop-2189004162 (Insight)]:	Text:	[string "scripts/components/kramped.lua"]:60: bad argument #1 to 'random' (interval is empty)
+LUA ERROR stack traceback:
+	scripts/stacktrace.lua:124 in () ? (Lua) <122-127>
+	=[C]:-1 in (field) random (C) <-1--1>
+	scripts/components/kramped.lua:60 in (upvalue) OnNaughtyAction (Lua) <58-85>
+	scripts/components/kramped.lua:96 in (upvalue) OnKilledOther (Lua) <87-100>
+	../mods/workshop-2189004162/modmain.lua:2191 in () ? (Lua) <2168-2219>
+	scripts/components/kramped.lua:125 in (local) fn (Lua) <115-129>
+	scripts/entityscript.lua:1120 in (method) PushEvent (Lua) <1107-1134>
+	scripts/prefabs/player_common.lua:697 in (field) fn (Lua) <687-711>
+	scripts/scheduler.lua:186 in (method) OnTick (Lua) <164-216>
+	scripts/scheduler.lua:409 in (global) RunScheduler (Lua) <407-415>
+	scripts/update.lua:234 in () ? (Lua) <218-292>	
+[00:01:18]: [workshop-2189004162 (Insight)]:	Additionaltext:	此错误可能是由于你启用的某个模组所致！
+你启用了下列模组：
+"Insight" 	
+[00:01:18]: [workshop-2189004162 (Insight)]:	SERVER_OWNER_HAS_OPTED_IN:	nil	
+[00:01:18]: [workshop-2189004162 (Insight)]:	Status:	[Insight]: Crash reporter disabled [Server].	
+[00:01:18]: [workshop-2189004162 (Insight)]:	State:	0	
